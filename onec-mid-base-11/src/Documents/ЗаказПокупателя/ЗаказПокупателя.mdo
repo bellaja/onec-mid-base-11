@@ -222,10 +222,14 @@
       <value>КонтактноеЛицо</value>
     </synonym>
     <type>
-      <types>CatalogRef.ВидыКонтактнойИнформации</types>
+      <types>CatalogRef.Дораб_КонтактныеЛица</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Document.ЗаказПокупателя.Attribute.Контрагент</field>
+    </choiceParameterLinks>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
